@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng ký</title>
+        <style>
+            html, body 
+            {
+            height: 100%;  /* Cung cấp chiều cao 100% cho html và body */
+            margin: 0;  /* Loại bỏ margin mặc định */
+            }
+            input
+            {
+                width: 160px;
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 10px;
+            }
+            div
+            {
+                display: flex;
+                justify-content: center;
+                margin-top: 190px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <label for="account">Tài khoản</label>
+                <br>
+                <input id="account" type="text" name="account"> 
+                <br>
+                <label for="password">Mật khẩu</label>
+                <br>
+                <input id="password" type="password" name="password">
+                <br>
+                <label for="repassword">Nhập lại mật khẩu</label>
+                <br>
+                <input id="repassword" type="password" name="repassword">
+                <br>
+                <input id="submit" type="submit" name="submit" value="Đăng ký">
+            </form>
+        </div>
+    </body>
+</html>
